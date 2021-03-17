@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_form_builder: ^4.2.0
+  flutter_form_builder:
+    git:
+      url: git://github.com/ziglet-io/flutter_form_builder.git    
+#    path: ../flutter_form_builder
   image_picker: ^0.6.7+17
   image_picker_for_web: ^0.1.0+2
 
